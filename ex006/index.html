@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex006</title>
+</head>
+
+<body>
+    <!--Botão de opção(radio), só permiti marcar uma opção-->
+    <h1>Formulário Simples</h1>
+    <!--Form = Cria o formulário-->
+    <!--Action = Define a ação que aconetece quando envia as info-->
+    <form action="" method="post">
+        <!--ctrl + shift + p = liga o texto a uma tag (liguei label ao nome por exemplo)-->
+        <p><label for="inome">Nome</label>
+            <!--input type = define o valor do atributo (text por exemplo)-->
+            <!--Id = identificador do campo-->
+            <input type="text" name="Nome" id="inome">
+        </p>
+        <p><label for="iemail">Email</label>
+            <input type="email" name="Email" id="iemail">
+        </p>
+        <p><label for="isenha">Senha</label>
+            <input type="password" name="Senha" id="isenha">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+
+    <h1>Formulário de cadastro</h1>
+    <!--Form = Cria o formulário-->
+    <!--Action = Define a ação que aconetece quando envia as info-->
+    <form action="" method="post">
+        <p><label for="inome_completo">Nome Completo</label>
+            <!--input type = define o valor do atributo (text por exemplo)-->
+            <input type="text" name="Nome Completo" id="inome_completo">
+        </p>
+        <p><label for="inome_usuario">Nome de Usuário</label>
+            <!--Id = identificador do campo-->
+            <input type="text" name="Nome de Usuário" id="inome_usuario">
+        </p>
+        <p><label for="iemails">Email</label>
+            <input type="email" name="Emails" id="iemails">
+        </p>
+        <p><label for="isenhas">Senha</label>
+            <input type="password" name="Senhas" id="isenhas">
+        </p>
+        <p>Time:
+            <input type="radio" name="SãoPaulo" id="isaopaulo">
+            <!--ctrl + shift + p = liga o texto a uma tag (liguei label ao nome por exemplo)-->
+            <label for="isaopaulo">São Paulo</label>
+            <input type="radio" name="Corinthians" id="icorintians">
+            <label for="icorintians">Corinthians</label>
+            <input type="radio" name="Flamengo" id="iflamengo">
+            <label for="iflamengo">Flamengo</label>
+            <input type="radio" name="Palmeiras" id="ipalmeiras">
+            <label for="ipalmeiras">Palmeiras</label>
+            <!--label = Um elemento HTML <label> representa uma legenda para um item em uma interface de usuário. Ele pode estar associado com um elemento de controle, colocando este dentro do elemento label, ou usando o atributo for. Tal controle é chamado o controle etiquetado do elemento etiqueta. Um input pode ser associado a diversas etiquetas (<label>s).-->
+        </p>
+        <p>Interesses:
+            <input type="checkbox" name="" id="">
+            <label for="">Tecnologia</label>
+            <input type="checkbox" name="" id="">
+            <label for="">Esporte</label>
+            <input type="checkbox" name="" id="">
+            <label for="">Música</label>
+        </p>
+
+        <p>Cidade:
+            <select name="" id="">
+                <option value="">São Paulo</option>
+                <option value="">Rio De Janeiro</option>
+                <option value="">Belo Horizone</option>
+            </select>
+        </p>
+
+        <p>Mensagem:
+            <textarea name="" id="" cols="10" rows="5"></textarea>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset">
+
+
+    </form>
+</body>
+
+</html>
