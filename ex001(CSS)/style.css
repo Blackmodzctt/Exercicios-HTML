@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(214, 214, 214);
+}
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: Arial
+}
+#paragrafo_do_sub {
+    text-align: center;
+    font-family: Arial
+
+}
+.postagem {
+        color: red;
+        font-family: Arial;
+        border-radius: 10px;
+        margin: 40px;
+        padding: 30px;
+        background-color: white;
+}
+
+.paragrafo {
+    color: black;
+}
+
+#rodape {
+    color: #666;
+    text-align: center;
+}
